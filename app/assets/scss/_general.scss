@@ -1,0 +1,203 @@
+@use "_reset" as *;
+
+// Wrapper size
+$min-width: 320;
+$max-width: 1170;
+$padding: 20;
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100%;
+  min-width: #{$min-width}px;
+}
+
+html {
+  background: $c-dark;
+  color: $c-light;
+}
+
+body {
+  font-family: "Mona Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  //scroll-behavior: smooth;
+
+  &.lock {
+    position: fixed;
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.wrapper, .layout, #__nuxt {
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: #{$max-width}px;
+  margin: 0 auto;
+
+  @media (max-width: #{$max-width + $padding * 2}px) {
+    max-width: 100%;
+    padding: 0 #{$padding}px;
+  }
+}
+
+.page {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+section {
+  flex: 1;
+  padding: 60px 0;
+
+  &:not(:last-child) {
+    margin: 0 0 60px 0;
+  }
+
+  @include maxWidth1024 {
+    padding: 30px 0;
+
+    &:not(:last-child) {
+      margin: 0 0 30px 0;
+    }
+  }
+}
+
+a {
+  transition: all 0.3s ease 0s;
+
+  &:not(.button) {
+    @include anyHover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.body {
+  &_1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &_2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &_3 {
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 30px;
+
+  @include maxWidth768 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.headline_1, h1 {
+  font-size: 56px;
+  line-height: normal;
+
+  @include maxWidth768 {
+    font-size: 40px;
+  }
+}
+
+.headline_2, h2 {
+  font-size: 46px;
+  line-height: normal;
+
+  @include maxWidth768 {
+    font-size: 28px;
+    //line-height: 130%;
+  }
+}
+
+.headline_3, h3 {
+  font-size: 36px;
+  line-height: 46px;
+
+  @include maxWidth768 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+
+.headline_4, h4 {
+  font-size: 28px;
+  line-height: 36px;
+
+  @include maxWidth768 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.absolute-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+.cover-image {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+}

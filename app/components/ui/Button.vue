@@ -1,14 +1,13 @@
-<template>
-  <button :class="my-button">
+<script setup></script>
 
+<template>
+  <button
+    v-if="true"
+    class="my-button"
+  >
+    <slot />
   </button>
 </template>
-
-<script>
-export default {
-
-}
-</script>
 
 <style lang="scss" scoped>
 .my-button {
@@ -16,7 +15,6 @@ export default {
   border: 1px;
   background-color: #EE4312;
   width: 100%;
-  height: 50px;
   font-size: 18px;
 }
 </style>

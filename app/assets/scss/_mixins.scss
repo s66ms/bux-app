@@ -1,0 +1,38 @@
+/* responsive */
+@mixin maxWidth1024() {
+  @media screen and (max-width: 1023.98px) {
+    @content;
+  }
+}
+
+@mixin maxWidth992() {
+  @media screen and (max-width: 991.98px) {
+    @content;
+  }
+}
+
+@mixin maxWidth768() {
+  @media screen and (max-width: 767.98px) {
+    @content;
+  }
+}
+
+@mixin maxWidth550() {
+  @media screen and (max-width: 549.98px) {
+    @content;
+  }
+}
+
+@mixin anyHover() {
+  @media (any-hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+@mixin noHover() {
+  @media (any-hover: none) {
+    @content;
+  }
+}
