@@ -13,7 +13,7 @@
           </ul>
         </nav>
         </div>
-        <my-button>Book on Appoinment</my-button>
+        <MyButton>Book on Appoinment</MyButton>
     </div>
   </header>
 </template>
