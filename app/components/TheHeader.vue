@@ -78,13 +78,13 @@ const menu = ref([
   display: flex;
   flex: 1 1 auto;
   font-size: 18px;
-
+  padding: 25px 15px;
   &_list {
     display: flex;
     list-style: none;
-
+    margin: 0 25px;
     li {
-      margin: 0 18px;
+      margin: 0 20px;
     }
   }
   &__link {
