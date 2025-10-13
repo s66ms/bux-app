@@ -12,12 +12,12 @@
       </div>
       <div class="img-content">
         <img
-          src="../../public/img/image1.png"
+          src="/img/image1.png"
           alt=""
-          class="img-for_block1"
+          class="img-content"
         >
         <img
-          src="../../public/img/Vector.svg"
+          src="/img/Vector.svg"
           alt=""
         >
       </div>
@@ -32,9 +32,6 @@
 </template>
 
 <style lang="scss">
-.img-for_block1{
-  filter: grayscale(1);
-}
 h1{
   font-size: 64px;
   letter-spacing: 2%;
@@ -51,5 +48,10 @@ p{
 .text-content{
   align-items: center;
   padding-top: 10%;
+}
+.img-content{
+  padding: 0 20%;
+  height: 543px;
+  filter: grayscale(1);
 }
 </style>
