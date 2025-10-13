@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/eslint'],
   devtools: {
-    enabled: true
+    enabled: false
   },
 
   css: ['~/assets/scss/_general.scss'],

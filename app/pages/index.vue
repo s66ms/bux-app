@@ -12,7 +12,12 @@
       </div>
       <div class="img-content">
         <img
-          src="/img/image1.png"
+          src="/img/hero.jpg"
+          alt=""
+          class="img-content"
+        >
+        <img
+          src="/img/placeholder.jpg"
           alt=""
           class="img-content"
         >
