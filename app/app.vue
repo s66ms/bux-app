@@ -24,9 +24,9 @@ useHead({
       <NuxtLoadingIndicator />
       <TheHeader />
       <main class="page">
-        <div class="container">
-          <NuxtPage />
-        </div>
+        <!--        <div class="container"> -->
+        <NuxtPage />
+        <!--        </div> -->
       </main>
       <!--      <TheFooter /> -->
     </div>
