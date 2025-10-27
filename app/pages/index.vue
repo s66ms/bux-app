@@ -228,6 +228,59 @@
       </div>
     </div>
   </section>
+  <div class="container">
+    <section class="block-information-5">
+      <div class="container block-4">
+        <div class="block-information-text-3">
+          <h1>Benefits of Teaming Up with Us</h1>
+          <p>
+            Embark on a transformative journey with us, where tailored solutions
+            <br> and dedicated support redefine collaborative success.
+          </p>
+          <div class="block-mini-info-4">
+            <img
+              src="/img/group10.png"
+              alt=""
+            >
+            <h1>Progressive Oriented</h1>
+            <p style="margin-left: -31.5%;">
+              Innovating progress with dynamic strategies and <br> forward-thinking solutions.
+            </p>
+          </div>
+          <div class="block-mini-info-4">
+            <img
+              src="/img/group11.png"
+              alt=""
+            >
+            <h1>Innovative Vision</h1>
+            <p>Crafting solutions through forward-thinking strategies <br> and innovative vision.</p>
+          </div>
+        </div>
+        <div class="img-content-3">
+          <img
+            src="/img/vector6.png"
+            alt=""
+            class="img-vector6"
+          >
+          <img
+            src="/img/vector7.png"
+            alt=""
+            class="img-vector7"
+          >
+          <img
+            src="/img/hero3.png"
+            alt=""
+            class="img-hero-3"
+          >
+          <img
+            src="/img/hero4.png"
+            alt=""
+            class="img-hero-4"
+          >
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <style lang="scss">
@@ -264,27 +317,36 @@ p{
 .hero-line-2{
   border-radius: 5%;
   border: 2px solid #EE4312;
-  height: 16.5%;
+  height: 10.5%;
   width: 28%;
   position: absolute;
-  top: 59.5%;
+  top: 39%;
   left: 55%;
 }
 .img-vector3{
   position: absolute;
-  bottom: 36.5%;
+  bottom: 59%;
   right: 47.2%;
 }
 .img-vector4{
   position: absolute;
-  bottom: 25.5%;
+  bottom: 51%;
   right: 17.5%;
 }
 .img-vector5{
   position: absolute;
   right: 19%;
-  bottom: 18.5%;
-
+  bottom: 31%;
+}
+.img-vector6{
+  position: absolute;
+  right: 40%;
+  bottom: 1%;
+}
+.img-vector7{
+  position: absolute;
+  right: 18%;
+  bottom: 9.6%;
 }
 .text-line{
   width: 74%;
@@ -338,7 +400,7 @@ p{
 }
 .block-information-4{
   background: #F5F7FF;
-  margin-top: 1%;
+  margin-bottom: 2%;
   h1{
     font-weight: 700;
     font-size: 36px;
@@ -346,6 +408,9 @@ p{
   p{
     font-size: 17.5px;
   }
+}
+.block-information-5{
+  margin-bottom: 5%;
 }
 .text-content-2{
   margin-top: 10%;
@@ -370,6 +435,19 @@ p{
   p{
     font-size: 16px;
     margin-top: -1%;
+  }
+}
+.block-information-text-3{
+  margin-top: 7%;
+  h1{
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 8%;
+  }
+  p{
+    font-size: 16px;
+    margin-top: -2%;
+    margin-bottom: 3%;
   }
 }
 .block-info{
@@ -408,6 +486,29 @@ p{
   justify-content: row;
   white-space: nowrap;
 }
+.block-mini-info-4{
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  margin-top: 1%;
+  display: flex;
+  width: 100%;
+  background: #F5F7FF;
+  justify-content: row;
+  white-space: nowrap;
+  h1{
+    font-size: 18px;
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+  p{
+    font-size: 14px;
+    margin-top: 4%;
+    margin-left: -26%;
+  }
+  img{
+    margin-left: 2%;
+  }
+}
 .mini-information{
   align-content: center;
   margin-top: 4%;
@@ -434,5 +535,23 @@ p{
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
   position: right;
+}
+.img-hero-3{
+  filter: grayscale(85%);
+  position: absolute;
+  right: 25%;
+  bottom: 9.7%;
+}
+.img-hero-4{
+  filter: grayscale(85%);
+  position: absolute;
+  bottom: 1%;
+  right: 18%;
+  height: 8.5%;
+  width: 21%;
+}
+.block-4{
+  display: flex;
+  justify-content: space-between;
 }
 </style>
