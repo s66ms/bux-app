@@ -1,4 +1,4 @@
-<script setup>
+<script setup xmlns="http://www.w3.org/1999/html">
 </script>
 
 <template>
@@ -237,7 +237,10 @@
             Embark on a transformative journey with us, where tailored solutions
             <br> and dedicated support redefine collaborative success.
           </p>
-          <div class="block-mini-info-4">
+          <div
+            class="block-mini-info-4"
+            style="margin-top: 10%;"
+          >
             <img
               src="/img/group10.png"
               alt=""
@@ -277,8 +280,14 @@
             alt=""
             class="img-hero-4"
           >
+          <div class="hero-line-3" />
         </div>
       </div>
+    </section>
+  </div>
+  <div class="container">
+    <section class="block-information-6">
+      <!--      <swiper /> -->
     </section>
   </div>
 </template>
@@ -317,36 +326,47 @@ p{
 .hero-line-2{
   border-radius: 5%;
   border: 2px solid #EE4312;
-  height: 10.5%;
+  height: 14%;
   width: 28%;
   position: absolute;
-  top: 39%;
+  top: 49.5%;
   left: 55%;
+}
+.hero-line-3{
+  border-radius: 5%;
+  border: 2px solid #EE4312;
+  height: 15%;
+  width: 29.5%;
+  position: absolute;
+  bottom: 1%;
+  left: 55.7%;
 }
 .img-vector3{
   position: absolute;
-  bottom: 59%;
+  bottom: 47%;
   right: 47.2%;
 }
 .img-vector4{
   position: absolute;
-  bottom: 51%;
+  bottom: 37.5%;
   right: 17.5%;
 }
 .img-vector5{
   position: absolute;
   right: 19%;
-  bottom: 31%;
+  bottom: 32%;
 }
 .img-vector6{
   position: absolute;
-  right: 40%;
-  bottom: 1%;
+  right: 39.7%;
+  bottom: 1.8%;
 }
 .img-vector7{
   position: absolute;
   right: 18%;
-  bottom: 9.6%;
+  bottom: 10.6%;
+  background: #0E1947;
+  z-index: 2;
 }
 .text-line{
   width: 74%;
@@ -540,12 +560,12 @@ p{
   filter: grayscale(85%);
   position: absolute;
   right: 25%;
-  bottom: 9.7%;
+  bottom: 10.7%;
 }
 .img-hero-4{
   filter: grayscale(85%);
   position: absolute;
-  bottom: 1%;
+  bottom: 1.8%;
   right: 18%;
   height: 8.5%;
   width: 21%;
