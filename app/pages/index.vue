@@ -1,301 +1,320 @@
-<script setup xmlns="http://www.w3.org/1999/html">
-</script>
-
 <template>
-  <div class="container">
-    <section class="content">
-      <div class="text-content">
-        <h1>
-          Masterminds to <br> Your Positive Goal
-        </h1>
-        <p>Experience a rise in your pursuits with our expert consulting. We excel in <br> tailoring success strategies to your unique goals, covering diverse fields <br> for maximum impact, professionally and delightfully.</p>
-        <UiButton style="max-width: 36%; margin-top: 7%;">
-          Collaborate with Us
-        </UiButton>
-        <UiButton style="max-width: 24%; margin: 7% 0 0 5%; background: none; color: #EE4312;">
-          Learn more
-        </UiButton>
-        <div class="text-line" />
-      </div>
-      <div class="img-content">
-        <img
-          src="/img/hero.jpg"
-          alt=""
-          class="img-hero"
-        >
-        <img
-          src="/img/Vector.svg"
-          alt=""
-          class="img-vector"
-        >
-        <div class="hero-line" />
-      </div>
-    </section>
-  </div>
-  <div class="container">
-    <section class="block-information">
-      <div class="block-main">
-        <h1>This is Our result</h1>
-        <p>How capable we are at work shines through <br> in every endeavor.</p>
-      </div>
-      <div class="block-info">
-        <h1>160</h1>
-        <p>Client Project</p>
-      </div>
-      <div class="block-info">
-        <h1>340</h1>
-        <p>Successful Project </p>
-      </div>
-      <div class="block-info">
-        <h1>300+</h1>
-        <p>Team Members</p>
-      </div>
-      <div class="block-info">
-        <h1>82M</h1>
-        <p>Total Revenue</p>
-      </div>
-    </section>
-  </div>
-  <section class="block-information-2">
+  <div class="page">
     <div class="container">
-      <div class="block-information-text">
-        <h1>What We Can Offer You</h1>
-        <p>Optimize your journey with our consulting services, delivering <br> personalized solutions for success.</p>
-        <img
-          src="/img/vector2.png"
-          alt=""
-          class="img-vector-2"
-        >
-        <div class="block-mini-info-1">
-          <div class="mini-information">
-            <img
-              src="/img/group1.png"
-              alt=""
-            >
-            <h1>Method Development</h1>
-            <p>Strategic method development for <br> business  excellence and progress.</p>
-          </div>
-          <div class="mini-information">
-            <img
-              src="/img/group2.png"
-              alt=""
-            >
-            <h1>Quality Assurance</h1>
-            <p>Quality excellence for optimal and <br> sustainable business operation.</p>
-          </div>
-          <div class="mini-information">
-            <img
-              src="/img/group3.png"
-              alt=""
-            >
-            <h1>Human Resources</h1>
-            <p>Optimize human resources for <br> sustainable business growth.</p>
-          </div>
-        </div>
-        <div class="block-mini-info-2">
-          <div class="mini-information">
-            <img
-              src="/img/group4.png"
-              alt=""
-            >
-            <h1>Policy Compliance</h1>
-            <p>Strategic policy compliance  for<br>  seamless  business operations.</p>
-          </div>
-          <div
-            class="mini-information"
-            style="margin-left: 8%;"
-          >
-            <img
-              src="/img/group5.png"
-              alt=""
-            >
-            <h1>Business Strategies</h1>
-            <p>
-              Unlocking growth potential using <br> dynamic business strategies.
-            </p>
-          </div>
-          <div class="mini-information">
-            <img
-              src="/img/group6.png"
-              alt=""
-            >
-            <h1>Management System</h1>
-            <p>Maximize productivity with our <br> advanced management structure.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="container">
-    <section class="block-information-3">
-      <div class="text-content-2">
-        <h1>Know Our Story</h1>
-        <p>
-          Founded in 2019, Lumina is a leading web consulting firm based in <br> Malang, Indonesia. Our expert team specializes in web development,
-          <br> design, digital marketing, and strategic consulting. We craft tailored
-          <br> solutions to exceed client expectations, staying ahead of industry
-          <br> trends to provide cutting-edge solutions. Beyond projects, we prioritize
-          <br> lasting relationships, offering ongoing support for sustained success.
-          <br>Whether you're a startup or an established enterprise, Lumina is your
-          <br> dedicated partner in achieving digital excellence.
-        </p>
-        <UiButton style="max-width: 24.5%; margin-top: 8%;">
-          Learn more
-        </UiButton>
-      </div>
-      <div class="img-content-2">
-        <img
-          src="/img/hero2.png"
-          alt=""
-          class="img-hero-2"
-        >
-        <img
-          src="/img/vector3.png"
-          alt=""
-          class="img-vector3"
-        >
-        <img
-          src="/img/vector4.png"
-          alt=""
-          class="img-vector4"
-        >
-        <div class="hero-line-2" />
-      </div>
-    </section>
-  </div>
-  <section class="block-information-4">
-    <div class="container">
-      <div class="block-information-text-2">
-        <h1>Our Work is For Your Success</h1>
-        <p>Tailored systematic solutions for your goals, ensuring comprehensive <br> support and an effective path to success and objectives.</p>
-        <img
-          src="/img/vector5.png"
-          alt=""
-          class="img-vector5"
-        >
-        <UiButton style="max-width: 19.5%; margin-left: 81%; margin-top: -7%;">
-          Book an Appointment
-        </UiButton>
-      </div>
-      <div
-        class="block-mini-info-3"
-        style="margin-bottom: 6%;"
-      >
-        <div class="mini-information">
-          <img
-            src="/img/group7.png"
-            alt=""
-          >
+      <section class="content">
+        <div class="text-content">
           <h1>
-            Analysis & Research
+            Masterminds to <br> Your Positive Goal
           </h1>
           <p>
-            The consulting firm conducts detailed <br>
-            analysis and research, employing <br>
-            strategic methodologies to deliver client-<br>focused insights and effective solutions.
+            Experience a rise in your pursuits with our expert consulting. We excel in
+            <br> tailoring success strategies to your unique goals, covering diverse fields
+            <br> for maximum impact, professionally and delightfully.
           </p>
+          <UiButton style="max-width: 36%; margin-top: 7%;">
+            Collaborate with Us
+          </UiButton>
+          <UiButton style="max-width: 24%; margin: 7% 0 0 5%; background: none; color: #EE4312;">
+            Learn more
+          </UiButton>
+          <div class="text-line" />
         </div>
-        <div class="mini-information">
+        <div class="img-content">
           <img
-            src="/img/group8.png"
+            src="/img/hero.jpg"
             alt=""
+            class="img-hero"
           >
-          <h1 style="margin-right: 7%;">
-            Actualization
-          </h1>
-          <p>
-            In the execution phase, the consulting <br>
-            firm adeptly translates strategies into <br>
-            action, ensuring seamless actualization <br>
-            of client objectives and aspirations.
-          </p>
+          <img
+            src="/img/Vector.svg"
+            alt=""
+            class="img-vector"
+          >
+          <div class="hero-line" />
         </div>
-        <div class="mini-information">
+      </section>
+    </div>
+    <div class="container">
+      <section class="block-information">
+        <div class="block-main">
+          <h1>This is Our result</h1>
+          <p>How capable we are at work shines through <br> in every endeavor.</p>
+        </div>
+        <div class="block-info">
+          <h1>160</h1>
+          <p>Client Project</p>
+        </div>
+        <div class="block-info">
+          <h1>340</h1>
+          <p>Successful Project </p>
+        </div>
+        <div class="block-info">
+          <h1>300+</h1>
+          <p>Team Members</p>
+        </div>
+        <div class="block-info">
+          <h1>82M</h1>
+          <p>Total Revenue</p>
+        </div>
+      </section>
+    </div>
+    <section class="block-information-2">
+      <div class="container">
+        <div class="block-information-text">
+          <h1>What We Can Offer You</h1>
+          <p>Optimize your journey with our consulting services, delivering <br> personalized solutions for success.</p>
           <img
-            src="/img/group9.png"
+            src="/img/vector2.png"
             alt=""
+            class="img-vector-2"
           >
-          <h1 style="margin-right: 7%;">
-            Initiate
-          </h1>
-          <p>
-            The consulting firm kickstarts client <br>
-            initiatives with strategic expertise, <br>
-            ensuring a smooth launch and effective <br>
-            implementation of customized solutions.
-          </p>
+          <div class="block-mini-info-1">
+            <div class="mini-information">
+              <img
+                src="/img/group1.png"
+                alt=""
+              >
+              <h1>Method Development</h1>
+              <p>Strategic method development for <br> business  excellence and progress.</p>
+            </div>
+            <div class="mini-information">
+              <img
+                src="/img/group2.png"
+                alt=""
+              >
+              <h1>Quality Assurance</h1>
+              <p>Quality excellence for optimal and <br> sustainable business operation.</p>
+            </div>
+            <div class="mini-information">
+              <img
+                src="/img/group3.png"
+                alt=""
+              >
+              <h1>Human Resources</h1>
+              <p>Optimize human resources for <br> sustainable business growth.</p>
+            </div>
+          </div>
+          <div class="block-mini-info-2">
+            <div class="mini-information">
+              <img
+                src="/img/group4.png"
+                alt=""
+              >
+              <h1>Policy Compliance</h1>
+              <p>Strategic policy compliance  for<br>  seamless  business operations.</p>
+            </div>
+            <div
+              class="mini-information"
+              style="margin-left: 8%;"
+            >
+              <img
+                src="/img/group5.png"
+                alt=""
+              >
+              <h1>Business Strategies</h1>
+              <p>
+                Unlocking growth potential using <br> dynamic business strategies.
+              </p>
+            </div>
+            <div class="mini-information">
+              <img
+                src="/img/group6.png"
+                alt=""
+              >
+              <h1>Management System</h1>
+              <p>Maximize productivity with our <br> advanced management structure.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <div class="container">
-    <section class="block-information-5">
-      <div class="container block-4">
-        <div class="block-information-text-3">
-          <h1>Benefits of Teaming Up with Us</h1>
+    </section>
+    <div class="container">
+      <section class="block-information-3">
+        <div class="text-content-2">
+          <h1>Know Our Story</h1>
           <p>
-            Embark on a transformative journey with us, where tailored solutions
-            <br> and dedicated support redefine collaborative success.
+            Founded in 2019, Lumina is a leading web consulting firm based in
+            <br> Malang, Indonesia. Our expert team specializes in web development,
+            <br> design, digital marketing, and strategic consulting. We craft tailored
+            <br> solutions to exceed client expectations, staying ahead of industry
+            <br> trends to provide cutting-edge solutions. Beyond projects, we prioritize
+            <br> lasting relationships, offering ongoing support for sustained success.
+            <br>Whether you're a startup or an established enterprise, Lumina is your
+            <br> dedicated partner in achieving digital excellence.
           </p>
-          <div
-            class="block-mini-info-4"
-            style="margin-top: 10%;"
+          <UiButton style="max-width: 24.5%; margin-top: 8%;">
+            Learn more
+          </UiButton>
+        </div>
+        <div class="img-content-2">
+          <img
+            src="/img/hero2.png"
+            alt=""
+            class="img-hero-2"
           >
+          <img
+            src="/img/vector3.png"
+            alt=""
+            class="img-vector3"
+          >
+          <img
+            src="/img/vector4.png"
+            alt=""
+            class="img-vector4"
+          >
+          <div class="hero-line-2" />
+        </div>
+      </section>
+    </div>
+    <section class="block-information-4">
+      <div class="container">
+        <div class="block-information-text-2">
+          <h1>Our Work is For Your Success</h1>
+          <p>
+            Tailored systematic solutions for your goals, ensuring comprehensive
+            <br> support and an effective path to success and objectives.
+          </p>
+          <img
+            src="/img/vector5.png"
+            alt=""
+            class="img-vector5"
+          >
+          <UiButton style="max-width: 19.5%; margin-left: 81%; margin-top: -7%;">
+            Book an Appointment
+          </UiButton>
+        </div>
+        <div
+          class="block-mini-info-3"
+          style="margin-bottom: 6%;"
+        >
+          <div class="mini-information">
             <img
-              src="/img/group10.png"
+              src="/img/group7.png"
               alt=""
             >
-            <h1>Progressive Oriented</h1>
-            <p style="margin-left: -31.5%;">
-              Innovating progress with dynamic strategies and <br> forward-thinking solutions.
+            <h1>
+              Analysis & Research
+            </h1>
+            <p>
+              The consulting firm conducts detailed <br>
+              analysis and research, employing <br>
+              strategic methodologies to deliver client-<br>focused insights and effective solutions.
             </p>
           </div>
-          <div class="block-mini-info-4">
+          <div class="mini-information">
             <img
-              src="/img/group11.png"
+              src="/img/group8.png"
               alt=""
             >
-            <h1>Innovative Vision</h1>
-            <p>Crafting solutions through forward-thinking strategies <br> and innovative vision.</p>
+            <h1 style="margin-right: 7%;">
+              Actualization
+            </h1>
+            <p>
+              In the execution phase, the consulting <br>
+              firm adeptly translates strategies into <br>
+              action, ensuring seamless actualization <br>
+              of client objectives and aspirations.
+            </p>
           </div>
-        </div>
-        <div class="img-content-3">
-          <img
-            src="/img/vector6.png"
-            alt=""
-            class="img-vector6"
-          >
-          <img
-            src="/img/vector7.png"
-            alt=""
-            class="img-vector7"
-          >
-          <img
-            src="/img/hero3.png"
-            alt=""
-            class="img-hero-3"
-          >
-          <img
-            src="/img/hero4.png"
-            alt=""
-            class="img-hero-4"
-          >
-          <div class="hero-line-3" />
+          <div class="mini-information">
+            <img
+              src="/img/group9.png"
+              alt=""
+            >
+            <h1 style="margin-right: 7%;">
+              Initiate
+            </h1>
+            <p>
+              The consulting firm kickstarts client <br>
+              initiatives with strategic expertise, <br>
+              ensuring a smooth launch and effective <br>
+              implementation of customized solutions.
+            </p>
+          </div>
         </div>
       </div>
     </section>
-  </div>
-  <div class="container">
-    <section class="block-information-6">
-      <!--      <swiper /> -->
-    </section>
+    <div class="container">
+      <section class="block-information-5">
+        <div class="container block-4">
+          <div class="block-information-text-3">
+            <h1>Benefits of Teaming Up with Us</h1>
+            <p>
+              Embark on a transformative journey with us, where tailored solutions
+              <br> and dedicated support redefine collaborative success.
+            </p>
+            <div
+              class="block-mini-info-4"
+              style="margin-top: 10%;"
+            >
+              <img
+                src="/img/group10.png"
+                alt=""
+              >
+              <h1>Progressive Oriented</h1>
+              <p style="margin-left: -31.5%;">
+                Innovating progress with dynamic strategies and <br> forward-thinking solutions.
+              </p>
+            </div>
+            <div class="block-mini-info-4">
+              <img
+                src="/img/group11.png"
+                alt=""
+              >
+              <h1>Innovative Vision</h1>
+              <p>Crafting solutions through forward-thinking strategies <br> and innovative vision.</p>
+            </div>
+          </div>
+          <div class="img-content-3">
+            <img
+              src="/img/vector6.png"
+              alt=""
+              class="img-vector6"
+            >
+            <img
+              src="/img/vector7.png"
+              alt=""
+              class="img-vector7"
+            >
+            <img
+              src="/img/hero3.png"
+              alt=""
+              class="img-hero-3"
+            >
+            <img
+              src="/img/hero4.png"
+              alt=""
+              class="img-hero-4"
+            >
+            <div class="hero-line-3" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="block-information-6">
+        <SliderMainSection />
+      </section>
+    </div>
   </div>
 </template>
 
-<style lang="scss">
+<script>
+export default {
+  name: 'IndexPage',
+  methods: {
+    handleSlideChange(e) {
+      console.log('handleSlideChange', e)
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss">
 h1{
   font-size: 64px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 700;
 }
 p{
@@ -491,19 +510,19 @@ p{
 }
 .block-mini-info-1{
   display: flex;
-  justify-content: row;
+  justify-content: row; // todo need fix
   white-space: nowrap;
   padding: 0 -3%;
 }
 .block-mini-info-2{
   display: flex;
-  justify-content: row;
+  justify-content: row; // todo need fixv
   white-space: nowrap;
   padding: 0% -3%;
 }
 .block-mini-info-3{
   display: flex;
-  justify-content: row;
+  justify-content: row; // todo need fix
   white-space: nowrap;
 }
 .block-mini-info-4{
@@ -513,7 +532,7 @@ p{
   display: flex;
   width: 100%;
   background: #F5F7FF;
-  justify-content: row;
+  justify-content: row; // todo need fix
   white-space: nowrap;
   h1{
     font-size: 18px;
@@ -554,7 +573,7 @@ p{
   filter: grayscale(85%);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
-  position: right;
+  position: right; // todo need fix
 }
 .img-hero-3{
   filter: grayscale(85%);
