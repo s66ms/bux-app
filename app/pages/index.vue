@@ -291,13 +291,20 @@
         </div>
       </section>
     </div>
-
-    <div class="container">
-      <section class="block-information-6">
-        <SliderMainSection />
-      </section>
-    </div>
   </div>
+
+  <section class="block-information-6">
+    <div class="container">
+      <div class="text-content-3">
+        <h1>See What Clients Are Saying</h1>
+        <p>
+          Explore the authentic sentiments and experiences of our clients as
+          <br>they share their thoughts and satisfaction.
+        </p>
+      </div>
+      <SliderMainSection />
+    </div>
+  </section>
 </template>
 
 <script>
@@ -312,6 +319,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.block-information-6{
+  background: #F5F7FF;
+  margin-top: 7%;
+}
 h1{
   font-size: 64px;
   letter-spacing: 0.02em;
@@ -326,6 +337,16 @@ p{
 .text-content{
   align-items: center;
   padding-top: 9%;
+}
+.text-content-3{
+  margin-top: 10%;
+  h1{
+    font-size: 36px;
+  }
+  p{
+    font-size: 18px;
+    margin-top: -3%;
+  }
 }
 .img-hero{
   filter: grayscale(100%);
@@ -345,45 +366,45 @@ p{
 .hero-line-2{
   border-radius: 5%;
   border: 2px solid #EE4312;
-  height: 14%;
+  height: 13%;
   width: 28%;
   position: absolute;
-  top: 49.5%;
+  top: 46%;
   left: 55%;
 }
 .hero-line-3{
   border-radius: 5%;
   border: 2px solid #EE4312;
-  height: 15%;
-  width: 29.5%;
+  height: 14%;
+  width: 28%;
   position: absolute;
-  bottom: 1%;
+  bottom: 13%;
   left: 55.7%;
 }
 .img-vector3{
   position: absolute;
-  bottom: 47%;
+  bottom: 50%;
   right: 47.2%;
 }
 .img-vector4{
   position: absolute;
-  bottom: 37.5%;
+  bottom: 42%;
   right: 17.5%;
 }
 .img-vector5{
   position: absolute;
   right: 19%;
-  bottom: 32%;
+  bottom: 37%;
 }
 .img-vector6{
   position: absolute;
   right: 39.7%;
-  bottom: 1.8%;
+  bottom: 14%;
 }
 .img-vector7{
   position: absolute;
   right: 18%;
-  bottom: 10.6%;
+  bottom: 22.2%;
   background: #0E1947;
   z-index: 2;
 }
@@ -405,6 +426,13 @@ p{
 .img-content{
   margin-left: 3.4%;
   position: relative;
+  height: fit-content;
+}
+.img-content-2{
+  height: fit-content;
+}
+.img-content-3{
+  height: fit-content;
 }
 .content{
   display: flex;
@@ -413,7 +441,7 @@ p{
 .block-information{
   display: flex;
   flex-direction: row;
-  margin-top: 5%;
+  gap: 22px;
   margin-bottom: 5%;
   width: 100%;
   white-space: nowrap;
@@ -477,7 +505,6 @@ p{
   }
 }
 .block-information-text-3{
-  margin-top: 7%;
   h1{
     font-size: 36px;
     line-height: 48px;
@@ -486,7 +513,7 @@ p{
   p{
     font-size: 16px;
     margin-top: -2%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
   }
 }
 .block-info{
@@ -510,19 +537,16 @@ p{
 }
 .block-mini-info-1{
   display: flex;
-  justify-content: row; // todo need fix
   white-space: nowrap;
   padding: 0 -3%;
 }
 .block-mini-info-2{
   display: flex;
-  justify-content: row; // todo need fixv
   white-space: nowrap;
   padding: 0% -3%;
 }
 .block-mini-info-3{
   display: flex;
-  justify-content: row; // todo need fix
   white-space: nowrap;
 }
 .block-mini-info-4{
@@ -532,7 +556,6 @@ p{
   display: flex;
   width: 100%;
   background: #F5F7FF;
-  justify-content: row; // todo need fix
   white-space: nowrap;
   h1{
     font-size: 18px;
@@ -573,20 +596,19 @@ p{
   filter: grayscale(85%);
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
-  position: right; // todo need fix
 }
 .img-hero-3{
   filter: grayscale(85%);
   position: absolute;
   right: 25%;
-  bottom: 10.7%;
+  bottom: 22.2%;
 }
 .img-hero-4{
   filter: grayscale(85%);
   position: absolute;
-  bottom: 1.8%;
+  bottom: 14%;
   right: 18%;
-  height: 8.5%;
+  height: 8%;
   width: 21%;
 }
 .block-4{

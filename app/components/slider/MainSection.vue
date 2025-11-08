@@ -5,8 +5,8 @@
     :space-between="10"
     :modules="modules"
     :navigation="{
-      nextEl: '.slider-main-nav__prev',
-      prevEl: '.slider-main-nav__next'
+      nextEl: '.slider-main-nav__next',
+      prevEl: '.slider-main-nav__prev'
     }"
     :loop="false"
     @swiper="onSwiper"
@@ -16,8 +16,13 @@
       v-for="i in 5"
       :key="i"
     >
-      <div class="slide">
-        Slide {{ i }}
+      <div class="slide-1">
+        Working with this consulting firm was a game-
+        <br>changer for our business. Their strategic insights
+        <br> transformed our approach and boosted our success.
+      </div>
+      <div class="slide-2">
+        123
       </div>
     </swiper-slide>
   </swiper>
@@ -65,7 +70,7 @@ export default {
 .slider-main {
   width: 500px;
   background: gray;
-
+  margin-top: 5%;
   //:deep() {
   //  .swiper-wrapper {
   //  }
@@ -85,8 +90,13 @@ export default {
     }
   }
 }
-.slide {
-  background: blue;
-  min-height: 200px;
+.slide-1 {
+  background: #FFFFFF;
+  min-height: 150px;
+  text-align: center;
+}
+.slide-2 {
+  background: #EE4312;
+  min-height: 150px;
 }
 </style>
